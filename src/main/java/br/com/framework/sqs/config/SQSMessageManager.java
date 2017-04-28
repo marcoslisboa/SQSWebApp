@@ -18,12 +18,12 @@ import javax.jms.Session;
 @Singleton
 public class SQSMessageManager {
 
-    public static final String ACCESS_KEY = "";
-    public static final String SECRET_KEY = "";
-    public static final String QUEUE_NAME = "ExampleQueueDeveloper";
+    private static final String ACCESS_KEY = "";
+    private static final String SECRET_KEY = "";
+    private static final String QUEUE_NAME = "ExampleQueueDeveloper";
 
-    public static SQSConnection connection = null;
-    public static Queue queue = null;
+    static SQSConnection connection = null;
+    static Queue queue = null;
 
     @Inject
     SQSMessageReceiver sqsMessageReceiver;
