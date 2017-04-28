@@ -1,5 +1,6 @@
 br/com/framework/sqs/controller/PersonController.class
-br/com/framework/sqs/config/SQSMessageSender.class
-br/com/framework/sqs/config/SQSMessageSender$1.class
+br/com/framework/sqs/config/base/BasicSQSQueue.class
+br/com/framework/sqs/config/base/BasicSQSQueue$1.class
 br/com/framework/sqs/controller/PersonController$1.class
+br/com/framework/sqs/config/PersonQueue.class
 br/com/framework/sqs/dto/PersonDTO.class

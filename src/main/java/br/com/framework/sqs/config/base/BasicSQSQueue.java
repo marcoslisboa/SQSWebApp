@@ -22,8 +22,8 @@ public abstract class BasicSQSQueue {
 
     private static final Logger log = Logger.getLogger(BasicSQSQueue.class.getName());
 
-    private static final String ACCESS_KEY = "AKIAI3HENRF5UGS6FUOQ";
-    private static final String SECRET_KEY = "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";
+    private static final String ACCESS_KEY = "";
+    private static final String SECRET_KEY = "";
     private static final String SERVICE_ENDPOINT = "https://sqs.us-west-2.amazonaws.com";
 
     protected Gson gson = new GsonBuilder().create();

@@ -7,6 +7,7 @@ import com.amazonaws.services.sqs.model.Message;
 import com.amazonaws.services.sqs.model.ReceiveMessageRequest;
 import com.amazonaws.services.sqs.model.SendMessageRequest;
 import com.google.gson.Gson;
+import org.apache.commons.collections.CollectionUtils;
 
 import javax.ejb.Schedule;
 import javax.ejb.Startup;
@@ -14,6 +15,8 @@ import javax.ejb.Stateless;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
+
+import static org.apache.commons.collections.CollectionUtils.isNotEmpty;
 
 /**
  * Created by Marcos Lisboa on 28/04/17.
@@ -35,7 +38,7 @@ public class PersonQueue extends BasicSQSQueue {
         ReceiveMessageRequest receiveMessageRequest = new ReceiveMessageRequest(queueURL);
         List<Message> messages = sqs.receiveMessage(receiveMessageRequest).getMessages();
 
-        if (!messages.isEmpty()) {
+        if (isNotEmpty(messages)) {
             for (Message message : messages) {
                 log.info("  Message");
                 log.info("    MessageId:     " + message.getMessageId());
