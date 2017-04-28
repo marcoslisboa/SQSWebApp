@@ -41,7 +41,7 @@ public class PersonController {
     public Response queue(PersonDTO person) {
         sender.sendMessage(new Gson().toJson(person));
         persons.add(person);
-        return Response.ok().build();
+        return Response.ok(person).build();
     }
 
     @GET

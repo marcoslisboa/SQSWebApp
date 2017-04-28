@@ -1,5 +1,3 @@
 /home/marcos/IdeaProjects/SQSWebApp/src/main/java/br/com/framework/sqs/dto/PersonDTO.java
 /home/marcos/IdeaProjects/SQSWebApp/src/main/java/br/com/framework/sqs/controller/PersonController.java
-/home/marcos/IdeaProjects/SQSWebApp/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java
 /home/marcos/IdeaProjects/SQSWebApp/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java
-/home/marcos/IdeaProjects/SQSWebApp/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java
