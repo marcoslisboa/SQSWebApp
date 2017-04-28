@@ -39,7 +39,7 @@ public class SQSMessageManager {
 
             connection = connectionFactory.createConnection();
 
-            queue = connection.createSession(false, Session.AUTO_ACKNOWLEDGE).createQueue("myQueue");
+            queue = connection.createSession(false, Session.AUTO_ACKNOWLEDGE).createQueue(QUEUE_NAME);
 
             connection
                     .createSession(false, Session.AUTO_ACKNOWLEDGE)
