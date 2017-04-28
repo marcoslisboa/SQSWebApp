@@ -22,8 +22,8 @@ public abstract class BasicSQSQueue {
 
     private static final Logger log = Logger.getLogger(BasicSQSQueue.class.getName());
 
-    private static final String ACCESS_KEY = "";
-    private static final String SECRET_KEY = "";
+    private static final String ACCESS_KEY = "AKIAI3HENRF5UGS6FUOQ";
+    private static final String SECRET_KEY = "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";
     private static final String SERVICE_ENDPOINT = "https://sqs.us-west-2.amazonaws.com";
 
     protected Gson gson = new GsonBuilder().create();
@@ -31,7 +31,7 @@ public abstract class BasicSQSQueue {
     protected AmazonSQS sqs;
 
     public BasicSQSQueue() {
-        sqs = getSQSClient();
+        sqs = createSQSClient();
         queueURL = createQueueURL();
     }
 
@@ -48,7 +48,7 @@ public abstract class BasicSQSQueue {
         return sqs.createQueue(queueRequest).getQueueUrl();
     }
 
-    private AmazonSQS getSQSClient() {
+    private AmazonSQS createSQSClient() {
         return AmazonSQSClientBuilder
                 .standard()
                 .withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(ACCESS_KEY, SECRET_KEY)))
@@ -64,4 +64,5 @@ public abstract class BasicSQSQueue {
         log.info("Sequence Number: " + result.getSequenceNumber());
         log.info("Message Id: " + result.getMessageId());
     }
+
 }
