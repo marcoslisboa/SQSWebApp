@@ -1,8 +1,7 @@
 package br.com.framework.sqs.controller;
 
-import br.com.framework.sqs.config.SQSMessageSender;
+import br.com.framework.sqs.config.PersonQueue;
 import br.com.framework.sqs.dto.PersonDTO;
-import com.google.gson.Gson;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
@@ -25,7 +24,7 @@ public class PersonController {
     private static List<PersonDTO> persons = new ArrayList<>();
 
     @EJB
-    private SQSMessageSender sender;
+    private PersonQueue personQueue;
 
     static {
         persons.add(new PersonDTO(){{
@@ -39,7 +38,7 @@ public class PersonController {
     @POST
     @Path("queue")
     public Response queue(PersonDTO person) {
-        sender.sendMessage(new Gson().toJson(person));
+        personQueue.sendMessage(person);
         persons.add(person);
         return Response.ok(person).build();
     }
