@@ -2,7 +2,7 @@ package br.com.framework.sqs.config;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import javax.ejb.Stateless;
+import javax.enterprise.context.Dependent;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
@@ -10,7 +10,7 @@ import javax.jms.TextMessage;
 /**
  * Created by Marcos Lisboa on 27/04/17.
  */
-@Stateless
+@Dependent
 public class SQSMessageSender {
 
     private MessageProducer producer = null;

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf2ea379-35cb-4526-a60a-a98c5ac35d92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQSWebApp.iml" afterPath="$PROJECT_DIR$/SQSWebApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,58 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PersonController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/controller/PersonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQSMessageSender.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SQSMessageSender.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQSMessageManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +48,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -112,12 +68,12 @@
         <option value="$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/jms/MessageListener.class" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SqsMessageSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SqsMessageReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java" />
       </list>
     </option>
   </component>
@@ -148,6 +104,42 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Dependencies" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SQSWebApp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="javax.enterprise:cdi-api:1.2" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SQSWebApp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.jboss.resteasy:resteasy-jaxrs:3.0.19.Final" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -193,7 +185,215 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:1.0.0.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-jms-api_2.0_spec-1.0.0.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:1.0.0.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jboss-jms-api_2.0_spec-1.0.0.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.google.code.gson:gson:2.8.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.8.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.google.code.gson:gson:2.8.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.8.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQSWebApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -855,7 +1055,7 @@
       <workItem from="1493271541171" duration="2327000" />
       <workItem from="1493297181656" duration="1000000" />
       <workItem from="1493298195819" duration="373000" />
-      <workItem from="1493340522837" duration="5403000" />
+      <workItem from="1493340522837" duration="8492000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit - Create Project">
       <created>1493297920680</created>
@@ -913,11 +1113,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493348628622</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix Maven Dependecies">
+      <created>1493348710865</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1493348710865</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18639000" />
+    <option name="totallyTimeSpent" value="21728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1021" extended-state="6" />
@@ -927,7 +1134,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39100346" sideWeight="0.5064034" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.49786553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -935,14 +1142,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39100346" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39100346" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298731" sideWeight="0.4914621" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.4914621" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19743863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -958,6 +1165,43 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39100346" sideWeight="0.5064034" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39100346" sideWeight="0.49359658" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.4914621" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818073" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19743863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -988,45 +1232,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/enterprise/context/Dependent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/jms/MessageProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/jms/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/controller/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1341,14 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/jms/MessageProducer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1356,23 +1553,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="20">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar!/javax/jms/Message.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-540">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/amazonaws/amazon-sqs-java-messaging-lib/1.0.2/amazon-sqs-java-messaging-lib-1.0.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar!/javax/jms/TextMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="456.39444444444445">br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT</node>
+            <node x="232.5" y="136.89444444444445">commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="258.0" y="243.39444444444445">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final</node>
+            <node x="548.5" y="71.0">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final</node>
+            <node x="523.0" y="142.0">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final</node>
+            <node x="595.5" y="213.0">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/javax.activation:activation:jar:1.1.1</node>
+            <node x="588.0" y="284.0">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/commons-io:commons-io:jar:2.4</node>
+            <node x="583.5" y="355.0">org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="288.0" y="348.8">com.google.code.gson:gson:jar:2.8.0</node>
+            <node x="282.5" y="455.3">javax.enterprise:cdi-api:jar:1.2</node>
+            <node x="591.0" y="455.3">javax.enterprise:cdi-api:jar:1.2/javax.inject:javax.inject:jar:1</node>
+            <node x="229.5" y="526.3">org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final</node>
+            <node x="228.0" y="597.3">org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final</node>
+            <node x="199.0" y="668.3">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2</node>
+            <node x="573.0" y="632.8">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106</node>
+            <node x="849.0" y="580.7998207885304">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106</node>
+            <node x="1105.0" y="380.22777777777776">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="1133.0" y="451.22777777777776">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5</node>
+            <node x="1404.0" y="415.72777777777776">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5/org.apache.httpcomponents:httpcore:jar:4.4.1</node>
+            <node x="1378.5" y="486.72777777777776">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5/commons-codec:commons-codec:jar:1.10</node>
+            <node x="1140.0" y="522.2277777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/software.amazon.ion:ion-java:jar:1.0.2</node>
+            <node x="1108.0" y="735.2277777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4</node>
+            <node x="1364.0" y="742.9777777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4</node>
+            <node x="1391.0" y="671.9777777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-core:jar:2.7.4</node>
+            <node x="1082.0" y="664.2277777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6</node>
+            <node x="1134.5" y="593.2277777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/joda-time:joda-time:jar:2.7</node>
+            <node x="861.5" y="742.9777777777778">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:jmespath-java:jar:1.11.106</node>
+            <node x="550.0" y="703.8">com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1</node>
+            <node x="289.0" y="0.0">junit:junit:jar:4.12</node>
+            <node x="581.0" y="0.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final">
+              <point x="59.5" y="3.444444444444457" />
+              <point x="199.0" y="541.8" />
+              <point x="-91.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-core:jar:2.7.4">
+              <point x="101.0" y="-0.0" />
+              <point x="-59.0" y="-7.75" />
+            </edge>
+            <edge source="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="63.0" y="12.399999999999977" />
+              <point x="443.0" y="271.2944444444444" />
+              <point x="523.0" y="370.5" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5">
+              <point x="76.5" y="-7.75" />
+              <point x="1082.0" y="466.72777777777776" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/commons-logging:commons-logging:jar:1.1.3">
+              <point x="76.5" y="-12.916666666666657" />
+              <point x="1082.0" y="395.72777777777776" />
+              <point x="-78.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:jmespath-java:jar:1.11.106">
+              <point x="73.0" y="7.75" />
+              <point x="769.0" y="656.05" />
+              <point x="849.0" y="758.4777777777778" />
+              <point x="-64.0" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="32.0" y="-0.0" />
+              <point x="-65.0" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="javax.enterprise:cdi-api:jar:1.2">
+              <point x="59.5" y="-0.0" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.2">
+              <point x="59.5" y="-10.333333333333314" />
+              <point x="199.0" y="152.39444444444445" />
+              <point x="-88.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4">
+              <point x="75.0" y="7.75" />
+              <point x="-86.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/commons-io:commons-io:jar:2.4">
+              <point x="63.0" y="6.2000000000000455" />
+              <point x="443.0" y="265.0944444444445" />
+              <point x="523.0" y="299.5" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final">
+              <point x="59.5" y="-6.888888888888914" />
+              <point x="199.0" y="258.89444444444445" />
+              <point x="-63.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5/org.apache.httpcomponents:httpcore:jar:4.4.1">
+              <point x="50.0" y="-7.75" />
+              <point x="1284.0" y="458.97777777777776" />
+              <point x="1364.0" y="431.22777777777776" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/software.amazon.ion:ion-java:jar:1.0.2">
+              <point x="76.5" y="-2.583333333333343" />
+              <point x="1082.0" y="537.7277777777778" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/org.apache.httpcomponents:httpclient:jar:4.5/commons-codec:commons-codec:jar:1.10">
+              <point x="50.0" y="7.75" />
+              <point x="1284.0" y="474.47777777777776" />
+              <point x="1364.0" y="502.22777777777776" />
+              <point x="-71.5" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/javax.activation:activation:jar:1.1.1">
+              <point x="63.0" y="-0.0" />
+              <point x="443.0" y="258.89444444444445" />
+              <point x="523.0" y="228.49999999999997" />
+              <point x="-50.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1">
+              <point x="122.0" y="7.75" />
+              <point x="523.0" y="719.3" />
+              <point x="-96.0" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="59.5" y="-13.777777777777771" />
+              <point x="199.0" y="15.5" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106">
+              <point x="73.0" y="-7.75" />
+              <point x="769.0" y="640.55" />
+              <point x="-76.5" y="-0.0" />
+            </edge>
+            <edge source="javax.enterprise:cdi-api:jar:1.2" target="javax.enterprise:cdi-api:jar:1.2/javax.inject:javax.inject:jar:1">
+              <point x="38.5" y="-0.0" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="com.google.code.gson:gson:jar:2.8.0">
+              <point x="59.5" y="-3.444444444444457" />
+              <point x="199.0" y="364.3" />
+              <point x="-33.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:jmespath-java:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4">
+              <point x="64.0" y="-0.0" />
+              <point x="-75.0" y="7.75" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2">
+              <point x="59.5" y="10.333333333333314" />
+              <point x="-122.0" y="-0.0" />
+            </edge>
+            <edge source="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final">
+              <point x="63.0" y="-12.399999999999977" />
+              <point x="443.0" y="246.49444444444447" />
+              <point x="523.0" y="86.5" />
+              <point x="-97.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/joda-time:joda-time:jar:2.7">
+              <point x="76.5" y="2.583333333333343" />
+              <point x="1082.0" y="608.7277777777778" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106">
+              <point x="122.0" y="-7.75" />
+              <point x="523.0" y="648.3" />
+              <point x="-73.0" y="-0.0" />
+            </edge>
+            <edge source="br.com.framework.sqs:SQSWebApp:1.0-SNAPSHOT" target="org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final">
+              <point x="59.5" y="6.888888888888914" />
+              <point x="199.0" y="612.8" />
+              <point x="-93.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4">
+              <point x="76.5" y="12.916666666666657" />
+              <point x="1082.0" y="742.9777777777778" />
+              <point x="-75.0" y="-7.75" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6">
+              <point x="76.5" y="7.75" />
+              <point x="-101.0" y="-0.0" />
+            </edge>
+            <edge source="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4" target="com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/com.amazonaws:aws-java-sdk-sqs:jar:1.11.106/com.amazonaws:aws-java-sdk-core:jar:1.11.106/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-core:jar:2.7.4">
+              <point x="75.0" y="-7.75" />
+              <point x="1284.0" y="742.9777777777778" />
+              <point x="1364.0" y="695.2277777777778" />
+              <point x="-59.0" y="7.75" />
+            </edge>
+            <edge source="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final" target="org.jboss.resteasy:resteasy-jaxrs:jar:3.0.19.Final/org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final">
+              <point x="63.0" y="-6.199999999999989" />
+              <point x="443.0" y="252.69444444444446" />
+              <point x="-123.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="246.0" />
+          <SelectedNodes>
+            <node>com.amazonaws:amazon-sqs-java-messaging-lib:jar:1.0.2/org.apache.geronimo.specs:geronimo-jms_1.1_spec:jar:1.1.1</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1381,27 +1804,45 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        <state relative-caret-position="440">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/controller/PersonController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="211">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/com/google/gson/GsonBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="280">
+          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/framework/sqs/config/SQSMessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,8 +7,8 @@ import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 
+import javax.ejb.Singleton;
 import javax.inject.Inject;
-import javax.inject.Singleton;
 import javax.jms.Queue;
 import javax.jms.Session;
 
@@ -38,6 +38,9 @@ public class SQSMessageManager {
                             .build();
 
             connection = connectionFactory.createConnection();
+
+            queue = connection.createSession(false, Session.AUTO_ACKNOWLEDGE).createQueue("myQueue");
+
             connection
                     .createSession(false, Session.AUTO_ACKNOWLEDGE)
                     .createConsumer(queue)
